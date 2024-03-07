@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "console-providers": {
+        "commandName": "Project",
+        "commandLineArgs": "--ExampleSettings:Source=\"Command line\" --ExampleSettings:Value=\"77\" --ExampleSettings:One=\"cmd1\" --ExampleSettings:Two=\"cmd2\"",
+        "environmentVariables": {
+            "DOTNET_ENVIRONMENT": "Development"
+        }
+    }
+  }
+}
