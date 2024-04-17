@@ -44,7 +44,7 @@ jobs:
           dependabot-yml-path: ".github/dependabot.yml"
       - name: Create pull request
         if: github.event_name == 'workflow_dispatch' || github.repository_owner == 'dotnet'
-        uses: peter-evans/create-pull-request@a4f52f8033a6168103c2538976c07b467e8163bc
+        uses: peter-evans/create-pull-request@c55203cfde3e5c11a452d352b4393e68b85b4533
         with:
           branch: create-dependabotconfig-pull-request/patch
           title: "Update dependabot.yml - automatically."
