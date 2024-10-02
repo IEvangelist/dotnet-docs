@@ -28,7 +28,7 @@ jobs:
     steps:
     # Checkout the repository for the PR
     - name: Checkout repository
-      uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 #@v4.1.7
+      uses: actions/checkout@de5a000abf73b6f4965bd1bcdf8f8d94a56ea815 #@v4.1.7
 
     # Get the latest preview SDK (or sdk not installed by the runner)
     - name: Setup .NET
